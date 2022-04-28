@@ -1,3 +1,9 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
 .background-image{
     background-image: url("final-image.png");
     height: 100vh;
