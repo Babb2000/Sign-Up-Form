@@ -18,8 +18,7 @@
 #div2{
     height: 100vh;
     width: 70vw;
-    border: 1px solid black;
-    background-color: white;
+    background-color: #f8f8ff;
    
 }
 
@@ -36,4 +35,15 @@
     justify-self: center;
     align-items: center;
     flex-direction: column;
+}
+
+.nextPosition{
+    position: absolute;
+    top: 100px;
+
+    width: 100%;
+    height: 208px;
+    background-color: rgb(231,233,235);
+    box-shadow: 0 5px 15px rgb(0,0,0,0.5);
+
 }
