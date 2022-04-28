@@ -37,13 +37,3 @@
     flex-direction: column;
 }
 
-.nextPosition{
-    position: absolute;
-    top: 100px;
-
-    width: 100%;
-    height: 208px;
-    background-color: rgb(231,233,235);
-    box-shadow: 0 5px 15px rgb(0,0,0,0.5);
-
-}
