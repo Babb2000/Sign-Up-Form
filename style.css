@@ -4,6 +4,10 @@
     font-family: 'Libre Bodoni', serif;
 }
 
+h1{
+    font-size: 20px;
+}
+
 .container-1{
     display: flex;
     justify-content: space-between;
@@ -39,7 +43,7 @@
 }
 
 .headingText{
-    padding: 5px;
+    padding: 10px;
    font-size: 14px;
    letter-spacing: 0.1em;
    line-height: 25px;;
@@ -49,7 +53,7 @@
 }
 
 #newPad{
-    padding: 8px;
+    padding: 10px;
 }
 
 .holderDiv{
@@ -60,4 +64,40 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
+}
+
+.secHolderDiv{
+    height: 421px;
+    width: 100%;
+}
+
+.signUp{
+    
+    height:330px;
+    width: 100%;
+    background: white;
+}
+
+form{
+    height: 100%;
+    width: 100%;
+}
+
+#newMarg{
+    height: 100%;
+    width: 98%;
+    margin: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.inputBox{
+   width: calc(100%/2 - 20px );
+}
+
+input{
+    height: 35px;
+    width: 100%;
 }
