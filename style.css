@@ -5,23 +5,25 @@
 }
 
 h1{
-    font-size: 20px;
+    font-size: 15px;
 }
 
 .container-1{
     display: flex;
     justify-content: space-between;
+    height: 100vh;
+    width: 100vw;
 }
 
 #div1{
     position: relative;
-    height: 100vh;
+    height: 100%;
     width: 450px;
 
 }
 
 #div2{
-    height: 100vh;
+    height: 100%;
     width: 70vw;
     background-color: #f8f8ff;
    
@@ -53,7 +55,12 @@ h1{
 }
 
 #newPad{
-    padding: 10px;
+    padding: 6px;
+    text-decoration: underline;
+}
+
+p{
+    margin: 6px;
 }
 
 .holderDiv{
@@ -91,6 +98,8 @@ form{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    gap: 10px;
+    background-color: white;
 }
 
 .inputBox{
@@ -101,3 +110,14 @@ input{
     height: 35px;
     width: 100%;
 }
+
+div .inputBox label{
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+form .button{
+    height: 50px;
+    width: 100%;
+}
+
