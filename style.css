@@ -115,6 +115,11 @@ input{
     width: 100%;
 }
 
+input:invalid{
+    border: 1px solid red;
+    border-radius: 4px;
+}
+
 div .inputBox label{
     font-weight: 500;
     margin-bottom: 5px;
@@ -130,8 +135,35 @@ button label input{
 
 }
 
+footer{
+    height: 91px;
+    width: 100%;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 3px black;
+  
+
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
 
 input:focus{
   outline: thin dotted;
   border-radius: 4px;
+}
+
+.moveOver{
+    margin: 8px;
+}
+
+.hoverIt{
+    font-weight: bolder;
+    text-decoration: underline;
+}
+
+.hoverIt:hover{
+    color: white;
+    text-decoration: underline;
 }
